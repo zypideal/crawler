@@ -11,7 +11,8 @@ public class Test {
     public static void main(String[] args){
 
         try {
-            RetrivePage.downloadPage("http://www.baidu.com");
+            RetrivePage.downloadPage("https://www.segmentfault.com");
+            RetrivePage.parsePage("https://www.segmentfault.com");
         }catch (Exception e){
             LOGGER.error("error: {}", e);
         }

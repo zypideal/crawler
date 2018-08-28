@@ -1,2 +1,150 @@
-<!DOCTYPE html>
-<!--STATUS OK--><html> <head><meta http-equiv=content-type content=text/html;charset=utf-8><meta http-equiv=X-UA-Compatible content=IE=Edge><meta content=always name=referrer><link rel=stylesheet type=text/css href=http://s1.bdstatic.com/r/www/cache/bdorz/baidu.min.css><title>百度一下，你就知道</title></head> <body link=#0000cc> <div id=wrapper> <div id=head> <div class=head_wrapper> <div class=s_form> <div class=s_form_wrapper> <div id=lg> <img hidefocus=true src=//www.baidu.com/img/bd_logo1.png width=270 height=129> </div> <form id=form name=f action=//www.baidu.com/s class=fm> <input type=hidden name=bdorz_come value=1> <input type=hidden name=ie value=utf-8> <input type=hidden name=f value=8> <input type=hidden name=rsv_bp value=1> <input type=hidden name=rsv_idx value=1> <input type=hidden name=tn value=baidu><span class="bg s_ipt_wr"><input id=kw name=wd class=s_ipt value maxlength=255 autocomplete=off autofocus></span><span class="bg s_btn_wr"><input type=submit id=su value=百度一下 class="bg s_btn"></span> </form> </div> </div> <div id=u1> <a href=http://news.baidu.com name=tj_trnews class=mnav>新闻</a> <a href=http://www.hao123.com name=tj_trhao123 class=mnav>hao123</a> <a href=http://map.baidu.com name=tj_trmap class=mnav>地图</a> <a href=http://v.baidu.com name=tj_trvideo class=mnav>视频</a> <a href=http://tieba.baidu.com name=tj_trtieba class=mnav>贴吧</a> <noscript> <a href=http://www.baidu.com/bdorz/login.gif?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2f%3fbdorz_come%3d1 name=tj_login class=lb>登录</a> </noscript> <script>document.write('<a href="http://www.baidu.com/bdorz/login.gif?login&tpl=mn&u='+ encodeURIComponent(window.location.href+ (window.location.search === "" ? "?" : "&")+ "bdorz_come=1")+ '" name="tj_login" class="lb">登录</a>');</script> <a href=//www.baidu.com/more/ name=tj_briicon class=bri style="display: block;">更多产品</a> </div> </div> </div> <div id=ftCon> <div id=ftConw> <p id=lh> <a href=http://home.baidu.com>关于百度</a> <a href=http://ir.baidu.com>About Baidu</a> </p> <p id=cp>&copy;2017&nbsp;Baidu&nbsp;<a href=http://www.baidu.com/duty/>使用百度前必读</a>&nbsp; <a href=http://jianyi.baidu.com/ class=cp-feedback>意见反馈</a>&nbsp;京ICP证030173号&nbsp; <img src=//www.baidu.com/img/gs.gif> </p> </div> </div> </div> </body> </html>
+使用PHP扩展Xhprof分析项目性能实践
+项目即将上线，想通过一些工具来分析代码的稳定性和效率，想起在上个团队时使用过的xhprof扩展；因为换了新电脑，所以需要重新编译此扩展，现将安装与实际排查过程完整记录下来，方便自己回顾和帮助更多的读者。
+14
+tangqingsong·22 小时前
+
+「Android」SocialSdk-快速接入社会化登录分享
+使用 微博、QQ、微信、钉钉 原生 SDK 接入，提供这些平台的登录、分享功能支持。针对业务逻辑对各个平台的接口进行封装，对外提供一致的表现，在减轻接入压力的同时，又能获得原生 SDK 最大的灵活性。
+1
+尚妆产品技术刊读·1 天前
+
+从爬虫到机器学习预测，我是如何一步一步做到的？
+作者：xiaoyu 微信公众号：Python数据科学 知乎：python数据分析师 前情回顾 前一段时间与大家分享了北京二手房房价分析的实战项目，分为分析和建模两篇。文章发出后，得到了大家的肯定和支持，在此表示感谢。 数...
+17
+路远·1 天前
+
+H5 前端性能测试实践
+H5 页面发版灵活，轻量，又具有跨平台的特性，在业务上有很多应用场景。但是同时对比 App，H5 的性能表现总是要逊色一筹，比如页面打开往往会出现白屏，滑动列表等交互场景下也不如 Native 页面流畅。针对这些白...
+27
+有赞技术·1 天前
+
+TypeScript在react项目中的实践
+前段时间有写过一个TypeScript在node项目中的实践。 在里边有解释了为什么要使用TS，以及在Node中的一个项目结构是怎样的。 但是那仅仅是一个纯接口项目，碰巧赶上近期的另一个项目重构也由我来主持，经过上次的...
+6
+贾顺名·1 天前
+
+精读《手写 SQL 编译器 - 语法树》
+重回 “手写 SQL 编辑器” 系列。之前几期介绍了 词法、文法、语法的解析，以及回溯功能的实现，这次介绍如何生成语法树。
+11
+黄子毅·1 天前
+
+分布式(一) 搞定服务注册与发现
+我的业务比较简单，只是需要知道现在有哪些服务实例可供使用就可以了（并不是做远程调用，只需要拿到信息即可）。
+12
+crossoverJie·1 天前
+
+从Tomcat到Spring Boot
+暮夏八月是一年中最好的时节，近近地看到了凉爽的希望，却还能享用暖热的余温。距离Phil Webb发布Spring Boot已经4年有余，我们尝试在这个夏天把这只已经独自在外游荡了19年的野猫Tomcat装入春天的长靴。
+8
+张京·2 天前
+
+5分钟吃透React Native Flexbox
+今天我们来聊聊Flexbox，它是前端的一个布局方式。在React Native中是主流布局方式。如果你刚刚入门React Native，或者没有多少前端的技术经验，亦或者对其半知半解，那么这篇文章将很好的帮助你参透Flexbox的整...
+13
+idisfkj·2 天前
+
+使用Docker快速部署ELK分析Nginx日志实践
+笔者所在项目组的项目由多个子项目所组成，每一个子项目都存在一定的日志，有时候想排查一些问题，需要到各个地方去查看，极为不方便，此前听说有ELK这种神器，搜索了一下，发现利用docker搭建似乎并不麻烦，于是...
+18
+tangqingsong·3 天前
+
+【资源集合】 ES6 元编程（Proxy & Reflect & Symbol）
+几年前 ES6 刚出来的时候接触过 元编程（Metaprogramming）的概念，不过当时还没有深究。今天在应用和学习中不断接触到这概念，比如 mobx 5 中就用到了 Proxy 重写了 Observable 对象，觉得有必要梳理总结一下。
+79
+JSCON简时空·4 天前
+
+koa源码阅读[3]-koa-send与它的衍生(static)
+处理静态文件是一个繁琐的事情，因为静态文件都是来自于服务器上，肯定不能放开所有权限让接口来读取。 各种路径的校验，权限的匹配，都是需要考虑到的地方。 而koa-send和koa-static就是帮助我们处理这些繁琐事...
+12
+贾顺名·4 天前
+
+命令行界面 (CLI)、终端 (Terminal)、Shell、TTY，傻傻分不清楚？
+为什么突然想写这样一篇文章呢？其实是因为在最近计划发布的一篇关于 WSL (Windows Subsystem for Linux) 的博文中，我打算对终端模拟器、Shell 的选择与配置进行一些说明。不过对于刚接触 Linux 或者刚接触命令...
+53
+printempw·4 天前
+
+[DevOps]自动化运维基础与自动化监控
+本实验将讲解自动化运维的概念和基础知识，常用开源软件的使用场景，一个自动化运维系统需要具备哪些功能；通过Pexpect库实现自动监控服务器的负载、磁盘、内存、CPU、网络接口（流量）、端口等。
+21
+廖高祥·5 天前
+
+轻松生成小程序分享海报
+小程序分享到朋友圈只能使用小程序码海报来实现，生成小程序码的方式有两种，一种是使用后端方式，一种是使用小程序自带的canvas生成；后端的方式开发难度大，由于生成图片耗用内存比较大对服务端也是不小的压力...
+36
+jasondu·5 天前
+
+Android 8.1 源码_核心篇（一） -- 深入研究 JNI
+JNI是Java Native Interface的缩写，中文译为“Java本地调用”，通俗地说，JNI是一种技术，通过这种技术可以做到以下两点：
+11
+DeepCoder_Marco·6 天前
+
+Android 和 Webview 如何相互 sayHello(一)
+本系列文章一共有两篇：主要来讲解 webview 和客户端的交互。本篇为第一篇：Android 和 webview 的交互后续一篇是：IOS 和 webview 的交互如需获得最新的内容，可以关注微信公众号：前端小吉米
+32
+villainhr·8月21日
+
+骚年你的屏幕适配方式该升级了!-今日头条适配方案
+这个月在 Android 技术圈中 屏幕适配 这个词曝光率挺高的，为什么这么说呢？因为这个月陆续有多个大佬发布了屏幕适配相关的文章，公布了自己认可的屏幕适配方案
+30
+JessYanCoding·8月20日
+
+使用PHP辅助 快速制作一套自己的手写字体实践
+笔者以前在网上看到有民间高手制作字体的相关事迹，觉得把自己的手写字用键盘敲出来是一件很有意思的事情，所以一直有时间想制作一套自己的手写体，前几天在网上搜索了一下制作字体的方法，发现技术上并不是太难...
+53
+tangqingsong·8月20日
+
+Generator：JS执行权的真实操作者
+ES6提供了一种新型的异步编程解决方案：Generator函数（以下简称G函数）。它不是使用JS现有能力按照一定标准制定出来的东西（Promise是如此出生的），而是具有新型底层操作能力，与传统编程完全不同，代表一种新...
+57
+wmaker·8月20日
+
+据说搞区块链的人都觉得自己是“上帝
+1998年，开始于前一年七月的东南亚金融风暴终于席卷整个亚洲，风暴所至，马来西亚、新加坡、日本、韩国、中国等地经济无不大受打击，一些国家的政局甚至也开始混乱。正是在这一年，一名来自乔治·华盛顿大学的法学...
+0
+ETM漫谈区块链·8月17日
+
+前端插拔式 SPA 应用架构实现方案
+随着互联网云的兴起，一种将多个不同的服务集中在一个大平台上统一对外开放的概念逐渐为人熟知，越来越多与云相关或不相关的中后台管理系统或企业级信息系统曾经或开始采用了这种「统一平台」的形式。同时，前端...
+71
+alisecued·8月17日
+
+以太坊源码分析--MPT树
+MPT(Merkle Patricia Tries)是以太坊中存储区块数据的核心数据结构，它Merkle Tree和Patricia Tree融合一个树形结构，理解MPT结构对之后学习以太坊区块header以及智能合约状态存储结构的模块源码很有帮助。
+9
+Ryan是菜鸟·8月17日
+
+WEB安全Permeate漏洞靶场挖掘实践
+同时也是分享一下我平时挖掘漏洞的一些思路吧,这篇文章里虽然只简单介绍其中三种漏洞类型，但也是想是一个抛转引玉吧,给web安全新手提供一些挖掘思路.
+30
+tangqingsong·8月15日
+
+Android 8.1 源码_机制篇（一） --消息分发机制
+Android View 虽然不是四大组件，但其并不比四大组件的地位低（涉及面的广度和深入甚至比四大组件还复杂🔥）。而View的核心知识点 “事件分发机制” 则是不少刚入门同学的拦路虎（1、项目中处处遇到事件分发机制；2...
+16
+DeepCoder_Marco·8月13日
+
+精读《SQL vs Flux》
+对时序数据的处理有两种方式，如图所示，右边是 SQL，左边是自定义查询语言，也称为 NoSQL，处于中间地带的称为 SQL-LIKE 语言。
+9
+黄子毅·8月13日
+
+基于 HTML5 的 WebGL 自定义 3D 摄像头监控模型
+随着视频监控联网系统的不断普及和发展, 网络摄像机更多的应用于监控系统中，尤其是高清时代的来临，更加快了网络摄像机的发展和应用。
+45
+hightopo·8月13日
+
+微前端的设计理念与实践初探
+🎗 本文节选自 Web 开发导论/微前端与大前端，着眼阐述了微服务与微前端的设计理念以及微服务的潜在可行方案，需要致敬的是，本文的很多考虑借鉴了 Phodal 关于微前端的系列讨论以及 Web Architecture Links 中声...
+46
+王下邀月熊_Chevalier·8月12日
+
+终极蛇皮上帝视角之微信小程序之告别“刀耕火种”
+开门见山地说，小程序在日常开发中使用原生框架来开发还是挺不方便的，比如： 不支持 npm 包 不支持各种 CSS 预编译器 不支持配置 Babel 来转换一些 JavaScript 新特性 这样一来和日常开发前端页面的体验相比来说...
+27
+BuptStEve·8月12日
+
+手把手教你玩儿一下 Redis Module 之模块解读
+Redis 现在的 Stable 版本是4.0.11, 对Redis比较关注的童鞋都知道,4.0引入了 Module 。 我们先一起看看 Redis 4.0都更新了啥?
+18
+Panda·8月12日
+

@@ -16,27 +16,27 @@ public class HttpUtil {
     private static OkHttpClient client = new OkHttpClient();
 
 
-    public static String getForObject(String uri) throws Exception {
+    public static String get(String uri) throws Exception {
         return exchange("GET", uri, null);
     }
 
 
-    public static String postForObject(String uri, Object object) throws Exception {
+    public static String post(String uri, Object object) throws Exception {
         return exchange("POST", uri, object);
     }
 
 
-    public static String putForObject(String uri, Object object) throws Exception {
+    public static String put(String uri, Object object) throws Exception {
         return exchange("PUT", uri, object);
     }
 
 
-    public static String patchForObject(String uri, Object object) throws Exception {
+    public static String patch(String uri, Object object) throws Exception {
         return exchange("PATCH", uri, object);
     }
 
 
-    public static String deleteForObject(String uri) throws Exception {
+    public static String delete(String uri) throws Exception {
         return exchange("DELETE", uri, null);
     }
 
