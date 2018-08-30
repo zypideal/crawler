@@ -1,0 +1,300 @@
+title : 两个月的Java实习结束，继续努力
+date : 1535631647193
+votes : 2
+link : https://www.segmentfault.com/a/1190000016215193
+author : Java3y
+homepage : https://www.segmentfault.com/u/java_3y
+excerpt : 第一天是期待的：第一次将项目拉到本地上看的时候，代码很多，有非常多的模块，模块下又有dao/service/controller/form/bean，眼花缭乱的。再连上测试库，也发现有100多张表。~~顺着一些模块看下去，发现用的技术...
+
+
+
+title : Spring Cloud Finchley版中Consul多实例注册的问题处理
+date : 1535630200904
+votes : 0
+link : https://www.segmentfault.com/a/1190000016214904
+author : 程序员DD
+homepage : https://www.segmentfault.com/u/coderdd
+excerpt : 由于Spring Cloud对Etcd的支持一直没能从孵化器中出来，所以目前来说大多用户还在使用Eureka和Consul，之前又因为Eureka 2.0不在开源的消息，外加一些博眼球的标题党媒体使得Eureka的用户有所减少，所以，相信在...
+
+
+
+title : Java XML Digital Signatures
+date : 1535622710349
+votes : 0
+link : https://www.segmentfault.com/p/1210000016213349
+author : Honwhy
+homepage : https://www.segmentfault.com/u/honwhy
+excerpt : XML加签验签文档
+
+
+
+title : ThinkJS关联模型实践
+date : 1535601542700
+votes : 0
+link : https://www.segmentfault.com/p/1210000016206700
+author : 公子
+homepage : https://www.segmentfault.com/u/lizheming
+excerpt : 日常开发中少不了有大量的数据库查询操作，而关联模型的出现则是帮助开发人员尽量减少重复劳动。ThinkJS 中的关联模型功能也一直是受到大家的好评的，不过对于没有接触过的新同学有时候会不太懂如何配置。今天我...
+
+
+
+title : Spring Boot 最佳实践（三）模板引擎FreeMarker集成
+date : 1535599537942
+votes : 2
+link : https://www.segmentfault.com/a/1190000016205942
+author : 王磊
+homepage : https://www.segmentfault.com/u/vipstone
+excerpt : FreeMarker是一款免费的Java模板引擎，是一种基于模板和数据生成文本（HMLT、电子邮件、配置文件、源代码等）的工具，它不是面向最终用户的，而是一款程序员使用的组件。
+
+
+
+title : 使用Frp内网穿透快速搭建Web应用实践
+date : 1535598650654
+votes : 10
+link : https://www.segmentfault.com/a/1190000016205654
+author : tangqingsong
+homepage : https://www.segmentfault.com/u/songboy
+excerpt : 笔者最近折腾docker服务比较多，这几天想把在内网中的服务搬到公网当中，但docker对内存要求较高，而云服务高内存的服务器又比较贵，家里虽然有一台旧笔记本内存还可以，但是没有公网IP地址，视乎还是没有办法，...
+
+
+
+title : 简单理解：JVM为什么需要GC'
+date : 1535587200416
+votes : 3
+link : https://www.segmentfault.com/a/1190000016200416
+author : bali
+homepage : https://www.segmentfault.com/u/bali_5a0a92fba16aa
+excerpt : 社区内有人发起了一个讨论，关于JVM是否一定需要GC？他们认为应用程序的回收目标是构建一个仅用来处理内存分配，而不执行任何真正的内存回收操作的 GC。即仅当可用的 Java 堆耗尽的时候，才进行顺序的 JVM 停顿操...
+
+
+
+title : python综合学习五之Pandas
+date : 1535562161649
+votes : 3
+link : https://www.segmentfault.com/a/1190000016201649
+author : Corwien
+homepage : https://www.segmentfault.com/u/corwien
+excerpt : 这一节，主要深入学习Pandas的用法。 一、筛选 先建立一个 6X4 的矩阵数据。 {代码...} 打印： {代码...} 简单的筛选 如果我们想选取 DataFrame 中的数据，下面描述了两种途径, 他们都能达到同一个目的： {代码.....
+
+
+
+title : 前端使用puppeteer 爬虫生成《React.js 小书》PDF并合并
+date : 1535537419363
+votes : 25
+link : https://www.segmentfault.com/a/1190000016198363
+author : 轩辕Rowboat
+homepage : https://www.segmentfault.com/u/lxchuan12
+excerpt : 您可以在浏览器中手动执行的大多数操作都可以使用Puppeteer完成！生成页面的屏幕截图和PDF。抓取SPA并生成预渲染内容（即“SSR”）。自动化表单提交，UI测试，键盘输入等。创建最新的自动化测试环境。使用最新的Jav...
+
+
+
+title : 教你如何在 IDEA 远程 Debug ElasticSearch
+date : 1535536800426
+votes : 5
+link : https://www.segmentfault.com/a/1190000016185426
+author : zhisheng
+homepage : https://www.segmentfault.com/u/zhisheng
+excerpt : 之前在源码阅读环境搭建文章中写过我遇到的一个问题迟迟没有解决，也一直困扰着我。问题如下，在启动的时候解决掉其他异常和报错后，最后剩下这个错误一直解决不了：
+
+
+
+title : Go Channel 高级实践
+date : 1535534977615
+votes : 22
+link : https://www.segmentfault.com/a/1190000016197615
+author : sxssxs
+homepage : https://www.segmentfault.com/u/sxssxs
+excerpt : 本文主要讲实践，原理部分会一笔带过，关于 go 语言并发实现和内存模型后续会有文章。 channel 实现的源码不复杂，推荐阅读，[链接]
+
+
+
+title : 渣渣的 ElasticSearch 源码解析 —— 启动流程（下）
+date : 1535517900409
+votes : 1
+link : https://www.segmentfault.com/a/1190000016185409
+author : zhisheng
+homepage : https://www.segmentfault.com/u/zhisheng
+excerpt : 上篇文章写完了 ES 流程启动的一部分，main 方法都入口，以及创建 Elasticsearch 运行的必须环境以及相关配置，接着就是创建该环境的节点了。
+
+
+
+title : 消息队列二三事
+date : 1535516896344
+votes : 6
+link : https://www.segmentfault.com/a/1190000016192344
+author : MageekChiu
+homepage : https://www.segmentfault.com/u/mageek
+excerpt : 最近在看kafka的代码，就免不了想看看消息队列的一些要点：服务质量（QOS）、性能、扩展性等等，下面一一探索这些概念，并谈谈在特定的消息队列如kafka或者mosquito中是如何具体实现这些概念的。
+
+
+
+title : 渣渣的 ElasticSearch 源码解析 —— 启动流程（上）
+date : 1535515800382
+votes : 0
+link : https://www.segmentfault.com/a/1190000016185382
+author : zhisheng
+homepage : https://www.segmentfault.com/u/zhisheng
+excerpt : 上篇文章写了 ElasticSearch 源码解析 —— 环境搭建 ，其中里面说了启动 打开 server 模块下的 Elasticsearch 类：org.elasticsearch.bootstrap.Elasticsearch，运行里面的 main 函数就可以启动 ElasticSearch 了...
+
+
+
+title : 渣渣的 ElasticSearch 源码解析 —— 环境搭建
+date : 1535514600362
+votes : 2
+link : https://www.segmentfault.com/a/1190000016185362
+author : zhisheng
+homepage : https://www.segmentfault.com/u/zhisheng
+excerpt : 关注我 转载请务必注明原创地址为：[链接] 软件环境 1、Intellij Idea:2018.2版本 2、Elasticsearch 源码版本: 6.3.2 3、JDK:10.0.2 4、Gradle : 建议 4.5 及以上版本 5、Macbook Pro 2017 安装 ElasticSearch 去...
+
+
+
+title : 渣渣为什么要看 ElasticSearch 源码？
+date : 1535513400355
+votes : 3
+link : https://www.segmentfault.com/a/1190000016185355
+author : zhisheng
+homepage : https://www.segmentfault.com/u/zhisheng
+excerpt : 人工智能、大数据快速发展的今天，对于 TB 甚至 PB 级大数据的快速检索已然成为刚需，大型企业早已淹没在系统生成的浩瀚数据流当中。大数据技术业已集中在如何存储和处理这些海量的数据上。Elasticsearch 作为开...
+
+
+
+title : [DevOps]Ansible自动化运维入门到实战
+date : 1535513369475
+votes : 7
+link : https://www.segmentfault.com/a/1190000016191475
+author : 廖高祥
+homepage : https://www.segmentfault.com/u/liaogx
+excerpt : 本实验将讲解自动化运维中常用的工具Ansible，也是持续部署的利器。内容包括安装方式，命令介绍，Ansible的架构和原理，配置文件详解，常用模块介绍，Playbook的组成结构：变量、任务、模块、处理器、角色、标签...
+
+
+
+title : 渣渣的蚂蚁金服面试经历(二)
+date : 1535508000340
+votes : 16
+link : https://www.segmentfault.com/a/1190000016185340
+author : zhisheng
+homepage : https://www.segmentfault.com/u/zhisheng
+excerpt : 蚂蚁金服 电话二面（85 分钟） 1、自我介绍、工作经历、技术栈 2、项目中你学到了什么技术？（把三项目具体描述了很久） 3、微服务划分的粒度 4、微服务的高可用怎么保证的？ 5、常用的负载均衡，该怎么用，你能...
+
+
+
+title : 渣渣的蚂蚁金服面试经历(一)
+date : 1535506200329
+votes : 7
+link : https://www.segmentfault.com/a/1190000016185329
+author : zhisheng
+homepage : https://www.segmentfault.com/u/zhisheng
+excerpt : 蚂蚁金服 电话一面 1、自我介绍、自己做的项目和技术领域 2、项目中的监控：那个监控指标常见的哪些？ 3、微服务涉及到的技术以及需要注意的问题有哪些？ 4、注册中心你了解了哪些？ 5、consul 的可靠性你了解吗...
+
+
+
+title : Redis 的 8 大应用场景！
+date : 1535505122385
+votes : 15
+link : https://www.segmentfault.com/a/1190000016188385
+author : Java技术栈
+homepage : https://www.segmentfault.com/u/javastack
+excerpt : 之前讲过Redis的介绍，及使用Redis带来的优势，这章整理了一下Redis的应用场景，也是非常重要的，学不学得好，能正常落地是关键。
+
+
+
+title : chrome使用技巧（看了定不让你失望）
+date : 1535504636117
+votes : 14
+link : https://www.segmentfault.com/a/1190000016188117
+author : 程序员小灰
+homepage : https://www.segmentfault.com/u/chengxuyuanxiaohui
+excerpt : chrome是我比较喜欢的一个浏览器，本文作者通过图文并茂的方式向我们展示了Chrome的13个基础使用技巧，我从中发现跟使用Sublime Text2中有很多类似的快捷键，希望你也能从中有所收获。
+
+
+
+title : 渣渣的有赞面试经历（一）
+date : 1535504400284
+votes : 4
+link : https://www.segmentfault.com/a/1190000016185284
+author : zhisheng
+homepage : https://www.segmentfault.com/u/zhisheng
+excerpt : 四月份面试有赞的时候，自己还在实习，所以也没有复习，是在 Boss 直聘上投的，当时看到了有赞的 2018 届春招，就投了下，然后不知道怎么就被推到了框架组，结果后面就感觉自己被虐的可惨了。
+
+
+
+title : 搞定JVM垃圾回收就是这么简单
+date : 1535502987449
+votes : 7
+link : https://www.segmentfault.com/a/1190000016187449
+author : Snailclimb
+homepage : https://www.segmentfault.com/u/snailclimb
+excerpt : 简单的介绍一下强引用、软引用、弱引用、虚引用（虚引用与软引用和弱引用的区别、使用软引用能带来的好处）。
+
+
+
+title : 强如 Disruptor 也发生内存溢出？
+date : 1535502600781
+votes : 3
+link : https://www.segmentfault.com/a/1190000016186781
+author : crossoverJie
+homepage : https://www.segmentfault.com/u/crossoverjie
+excerpt : OutOfMemoryError 问题相信很多朋友都遇到过，相对于常见的业务异常（数组越界、空指针等）来说这类问题是很难定位和解决的。
+
+
+
+title : 升级PHP7 jenssegers/mongodb expected to be a reference
+date : 1535458479052
+votes : 3
+link : https://www.segmentfault.com/a/1190000016184052
+author : 苏生不惑
+homepage : https://www.segmentfault.com/u/sushengbuhuo
+excerpt : pecl上的mongodb扩展有两个，都是官方出品的，一个叫mongo，一个是mongodb，前者已经被官方废弃，不再提供稳定的更新，官方推荐使用后者，并且后者是支持php7的。在pecl上搜索mongodb即可找到，也可以通过pecl in...
+
+
+
+title : 推荐10个Java方向最热门的开源项目（8月）
+date : 1535450035252
+votes : 34
+link : https://www.segmentfault.com/a/1190000016182252
+author : Snailclimb
+homepage : https://www.segmentfault.com/u/snailclimb
+excerpt : 1. JCSprout（Java核心知识库） Github地址： [链接] star: 12k 介绍： 处于萌芽阶段的 Java 核心知识库。 2. Java-Guide （Java学习指南） Github地址： [链接] star: 3.1k 介绍： 一份涵盖大部分Java程序员所需...
+
+
+
+title : 浅谈架构是为了什么 (上)
+date : 1535450031249
+votes : 19
+link : https://www.segmentfault.com/a/1190000016182249
+author : CrazyCodes
+homepage : https://www.segmentfault.com/u/CrazyCodes
+excerpt : 架构是一款软件从0到100的演变过程。并非是上来就可以承载什么亿级访问的牛x架构什么的。本篇写给那些想要成为架构师或者正在尝试成为架构师的朋友。
+
+
+
+title : 程序员自省录
+date : 1535447218132
+votes : 23
+link : https://www.segmentfault.com/a/1190000016181132
+author : CrazyCodes
+homepage : https://www.segmentfault.com/u/CrazyCodes
+excerpt : 我相信每位入行的童鞋 （除了高工资,有免费大桶水喝的办公室，不干体力活的各种原因外），都有想用代码改变世界的想法。我也是这样，在苦苦挣扎了五年后，我发现我并未成功改变世界，而是让代码改变了自己。为什...
+
+
+
+title : 学习Python的建议
+date : 1535445272351
+votes : 11
+link : https://www.segmentfault.com/a/1190000016180351
+author : 凯威的讲堂
+homepage : https://www.segmentfault.com/u/kaige
+excerpt : Python是最容易入门的编程语言，没有之一。如果初学者接触的第一门语言是C或者C++，对他们来说最难的不是语法，而是容易出现内存泄漏、指针等问题。有时候排查这些问题对初学者的打击很大，尤其是没掌握排查BUG技...
+
+
+
+title : 使用IntelliJ IDEA新建Java Web后端resfulAPI模板
+date : 1535443923921
+votes : 1
+link : https://www.segmentfault.com/a/1190000016179921
+author : detectiveHLH
+homepage : https://www.segmentfault.com/u/detectivehlh
+excerpt : 打开IntelliJ IDEA，我的版本是Version 2018.1.4。点击Create New Project。在左侧的列表中选择Maven。然后在右侧勾选Create from archetype。
+
+
+

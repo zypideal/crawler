@@ -5,43 +5,43 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
+import java.util.Map;
 
 public class HttpUtil {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(HttpUtil.class);
 
     private static final MediaType MEDIA_TYPE_JSON = MediaType.parse("application/json");
-    private static final MediaType MEDIA_TYPE_HTML = MediaType.parse("text/html");
 
     private static OkHttpClient client = new OkHttpClient();
 
 
-    public static String get(String uri) throws Exception {
-        return exchange("GET", uri, null);
+    public static String get(String uri, Map<String, String> headers) throws Exception {
+        return exchange("GET", uri, headers,null);
     }
 
 
     public static String post(String uri, Object object) throws Exception {
-        return exchange("POST", uri, object);
+        return exchange("POST", uri, null, object);
     }
 
 
     public static String put(String uri, Object object) throws Exception {
-        return exchange("PUT", uri, object);
+        return exchange("PUT", uri, null, object);
     }
 
 
     public static String patch(String uri, Object object) throws Exception {
-        return exchange("PATCH", uri, object);
+        return exchange("PATCH", uri, null, object);
     }
 
 
     public static String delete(String uri) throws Exception {
-        return exchange("DELETE", uri, null);
+        return exchange("DELETE", uri, null, null);
     }
 
 
-    private static String exchange(String method, String url, Object object) throws Exception {
+    private static String exchange(String method, String url, Map<String, String> headers, Object object) throws Exception {
         RequestBody requestBody = null;
         if (object != null) {
             requestBody = RequestBody.create(MEDIA_TYPE_JSON, JsonUtil.dumps(object));
@@ -49,10 +49,12 @@ public class HttpUtil {
 
         Response response;
         try {
-            Request request = new Request.Builder()
-                    .url(url)
-                    .method(method, requestBody)
-                    .build();
+            Request.Builder builder = new Request.Builder();
+            for (Map.Entry<String, String> entry : headers.entrySet()) {
+                builder.addHeader(entry.getKey(), entry.getValue());
+            }
+
+            Request request = builder.url(url).method(method, requestBody).build();
 
             response = client.newCall(request).execute();
         } catch (IOException e) {
@@ -60,7 +62,7 @@ public class HttpUtil {
             throw e;
         }
 
-        if(!response.isSuccessful()){
+        if (!response.isSuccessful()) {
             LOGGER.error("http response error  mehtod:{}  url:{}  body:{}", method, url, JsonUtil.dumps(object));
             throw new Exception("http response error");
         }
@@ -76,6 +78,7 @@ public class HttpUtil {
         } finally {
             response.close();
         }
+
 
         LOGGER.debug("http request success  method:{}  url:{}  body:{}  responseCode:{}  responseBody:{}", method, url, JsonUtil.dumps(object), responseCode, responseBody);
 
