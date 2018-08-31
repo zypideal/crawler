@@ -1,6 +1,8 @@
 package com.zyp.crawler.util;
 
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Date;
 import java.util.TimeZone;
 
 public class TimeUtil {
@@ -47,6 +49,12 @@ public class TimeUtil {
     public static long getTodaEndTimeInMillis(){
         Calendar calendar = getTodayEndTime();
         return calendar.getTimeInMillis();
+    }
+
+
+    public static String format(long timestamp){
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        return simpleDateFormat.format(new Date(timestamp));
     }
 
 }
